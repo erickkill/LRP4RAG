@@ -24,16 +24,16 @@ download baseline_output.zip lrp_result_llama_7b.zip lrp_result_llama_13b.zip fr
 
 ## Usage
 1. run `python core/llama_lrp.py` to get LRP results, which will be saved in `lrp_result_llama_7b`
-2. run `python core/classifier.py --dataset ../lrp_result_llama_7b --classifier SVM` to get classification result of our approach
+2. run `python core/classifier.py --datasets ../lrp_result_llama_7b --classifier SVM` to get classification result of our approach
 
 ## Baselines
 + SelfCheckGPT: 
   + run `python baseline/self_checkgpt.py`
-  + run jupyter notebook `baseline/self_check.ipynb`
+  + run `python baseline/self_check_result.py`
 
 + Prompt LlaMA/GPT:
   + run `python baseline/prompt_llama.py` / run `python baseline/prompt_gpt.py`
-  + run jupyter notebook `baseline/prompt_llm.ipynb` 
+  + run `python baseline/prompt_llm_result.py` 
 
 + Finetune:
   + run `python baseline/llm_finetune.py`
