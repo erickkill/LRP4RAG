@@ -7,7 +7,7 @@ Using LRP-based methods to detect hallucination in RAG, this is code repository 
 Layer-wise Relevance Propagation ([LRP](https://arxiv.org/abs/1604.00825)) is a technique that brings such explainability and scales to potentially highly complex deep neural networks.
 
 #### Our Approach
-> LRP →  Relevance Statistics →  Classifier
+![image](./pdf/overview.jpg)
 
 
 ## Structure
