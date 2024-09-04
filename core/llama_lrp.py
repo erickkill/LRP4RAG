@@ -51,8 +51,7 @@ def read_source(path):
             sources.append({
                 "source_id": json_line["source_id"],
                 "prompt": json_line["prompt"],
-                "question": json_line["source_info"]["question"],
-                "answer": json_line["source_info"]["answer"]
+                "question": json_line["source_info"]["question"]
             })
     return sources
 
